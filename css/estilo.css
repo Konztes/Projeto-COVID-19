@@ -1,0 +1,143 @@
+/**** Parte da Pagina inicial ****/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4e196;
+    margin: 0px;
+}
+
+#links {
+    background-color: #5f9982;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+.estilo:hover {
+    color: yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    font-size: 60px;
+    padding: 10px;
+    text-shadow: 1px 2px rgb(90, 50, 50);
+    text-align: center;
+    display: flex;
+}
+
+#grafico-mapa {
+    background-color: white;
+    margin: 40px;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+#grafico-pizza {
+    background-color: white;
+    padding-top: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#tabela {
+    background-color: white;
+    padding-top: 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#graficos {
+    display: flex;
+    justify-content: space-around;
+}
+
+#div-botao {
+    padding: 30px;
+    text-align: center;
+}
+
+#btnObterDados {
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(90, 50, 50);
+}
+
+img {
+    display: flex;
+    width: 150px;
+}
+
+#mapa {
+    padding: 100px;
+}
+
+#pizza {
+    padding: 100px;
+}
+
+#linkEspec {
+    color: blue;
+}
+
+/*Footer*/
+footer {
+    background-color: #400428;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    bottom: 0;
+}
+/********/
+
+/**** Parte da pagina equipe ****/
+#equipe-estilos {
+    margin: 30px;
+    background-color: #a6bf91;
+    border-radius: 10px;
+}
+
+/*responsivo*/
+@media (max-width: 768px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+
+    nav {
+        font-size: 30px;
+    }
+
+    img {
+        width: 50px;
+    }
+
+    #mapa {
+        padding: 20px;
+    }
+
+    #pizza {
+        padding: 20px;
+    }
+
+    #equipe-estilos {
+        margin: 10px;
+    }
+
+    
+
+}
